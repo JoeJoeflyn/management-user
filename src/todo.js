@@ -1,7 +1,7 @@
 import react from "react";
 import List from "./list";
 
-function Form ({setTodos,todos,things, setThings }) {
+function Form ({setTodos, todos, things, setThings }) {
     function handleChange(e) {
         setThings(e.target.value)
     };
@@ -15,11 +15,11 @@ function Form ({setTodos,todos,things, setThings }) {
         ]);
         setThings('')
     };
-    function editTodo(e) {
-        setTodos(e)
-        console.log('alam',e)
-    };
-
+    // function editTodo(e) {
+    //     setTodos(e)
+    //     console.log('alam',e)
+    // };
+    // console.log('ok',things)
     return(
 
         <form>

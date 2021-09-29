@@ -8,7 +8,7 @@ function App(props) {
   const [todos, setTodos] = useState([])
   return (
     <div className="App">
-       <Form todos={todos} setTodos={setTodos} things={things} setThings={setThings}/>
+       <Form edit={props.edit} setEdit={props.setEdit} todos={todos} setTodos={setTodos} things={things} setThings={setThings}/>
        {/* <List todos={todos} setTodos={setTodos}/> */}
     </div>
   );
