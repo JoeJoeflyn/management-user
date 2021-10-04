@@ -1,5 +1,6 @@
 import TodoItem from "./TodoItem";
-function AddTodoItem({ setTodos, todos, things, setThings, edits }) {
+
+const AddTodoItem = ({ setTodos, todos, things, setThings, edits }) => {
   function handleChange(e) {
     setThings(e.target.value);
   }
@@ -33,5 +34,5 @@ function AddTodoItem({ setTodos, todos, things, setThings, edits }) {
       </div>
     </form>
   );
-}
+};
 export default AddTodoItem;

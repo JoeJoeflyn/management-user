@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import AddTodoItem from "./components/\bAddTodoItem";
+import AddTodoItem from "./components/AddTodoItem";
 
 function App(props) {
   const [things, setThings] = useState("");
